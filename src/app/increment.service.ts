@@ -12,6 +12,10 @@ export class IncrementService {
     const curr = this.count.value;
     this.count.next(curr + 1);
   }
+  decrementValue() {
+    const curr = this.count.value;
+    this.count.next(curr - 1);
+  }
 
   clearCount() {
     this.count.next(0);

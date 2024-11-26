@@ -23,6 +23,9 @@ export class AppComponent {
   incValue(): void {
     this.inc.incrementValue();
   }
+  decValue(): void {
+    this.inc.decrementValue();
+  }
 
   clearVal(): void {
     this.inc.clearCount();
